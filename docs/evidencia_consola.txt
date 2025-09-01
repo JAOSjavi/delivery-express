@@ -1,0 +1,164 @@
+=== DELIVERY EXPRESS - TALLER COMPLETO ===
+
+=== PARTE A: LISTAS (ArrayList y LinkedList) ===
+1. ARRAYLIST - Ingresa 5 pedidos:
+
+--- Pedido #1 ---
+Nombre del cliente: Javier
+Comida que desea: papas
+
+--- Pedido #2 ---
+Nombre del cliente: Juan
+Comida que desea: huevo frito
+
+--- Pedido #3 ---
+Nombre del cliente: Julian
+Comida que desea: pizza
+
+--- Pedido #4 ---
+Nombre del cliente: pepe
+Comida que desea: pan
+
+--- Pedido #5 ---
+Nombre del cliente: Luisa 
+Comida que desea: Tomate
+
+Lista de pedidos en ArrayList:
+1. Pedido #1 - Cliente: Javier - Comida: papas
+2. Pedido #2 - Cliente: Juan - Comida: huevo frito
+3. Pedido #3 - Cliente: Julian - Comida: pizza
+4. Pedido #4 - Cliente: pepe - Comida: pan
+5. Pedido #5 - Cliente: Luisa - Comida: Tomate
+
+2. ARRAYLIST - Ingresa 2 pedidos urgentes (se insertarán al inicio):
+
+--- Pedido Urgente #6 ---
+Nombre del cliente: Javier
+Comida que desea: Papa
+
+--- Pedido Urgente #7 ---
+Nombre del cliente: Juan
+Comida que desea: Queso
+
+Lista de pedidos en ArrayList (con urgentes al inicio):
+1. Pedido #7 - Cliente: Juan - Comida: Queso
+2. Pedido #6 - Cliente: Javier - Comida: Papa
+3. Pedido #1 - Cliente: Javier - Comida: papas
+4. Pedido #2 - Cliente: Juan - Comida: huevo frito
+5. Pedido #3 - Cliente: Julian - Comida: pizza
+6. Pedido #4 - Cliente: pepe - Comida: pan
+7. Pedido #5 - Cliente: Luisa - Comida: Tomate
+
+3. LINKEDLIST - Ingresa 5 pedidos nuevamente:
+
+--- Pedido #1 ---
+Nombre del cliente: Lilo 
+Comida que desea: Hamburguesa 
+
+--- Pedido #2 ---
+Nombre del cliente: paola     
+Comida que desea: arequipe 
+
+--- Pedido #3 ---
+Nombre del cliente: juana
+Comida que desea: ensalada
+
+--- Pedido #4 ---
+Nombre del cliente: Tomas
+Comida que desea: Colacola
+
+--- Pedido #5 ---
+Nombre del cliente: River chicharron 
+Comida que desea: chiccarron
+
+Lista de pedidos en LinkedList:
+1. Pedido #1 - Cliente: Lilo - Comida: Hamburguesa
+2. Pedido #2 - Cliente: paola - Comida: arequipe
+3. Pedido #3 - Cliente: juana - Comida: ensalada
+4. Pedido #4 - Cliente: Tomas - Comida: Colacola
+5. Pedido #5 - Cliente: River chicharron - Comida: chiccarron
+
+LINKEDLIST - Ingresa 2 pedidos urgentes (se insertarán al inicio):
+
+--- Pedido Urgente #6 ---
+Nombre del cliente: River 
+Comida que desea: Arroz chino
+
+--- Pedido Urgente #7 ---
+Nombre del cliente: Maka
+Comida que desea: Colombiana
+
+Lista de pedidos en LinkedList (con urgentes al inicio):
+1. Pedido #7 - Cliente: Maka - Comida: Colombiana
+2. Pedido #6 - Cliente: River - Comida: Arroz chino
+3. Pedido #1 - Cliente: Lilo - Comida: Hamburguesa
+4. Pedido #2 - Cliente: paola - Comida: arequipe
+5. Pedido #3 - Cliente: juana - Comida: ensalada
+6. Pedido #4 - Cliente: Tomas - Comida: Colacola
+7. Pedido #5 - Cliente: River chicharron - Comida: chiccarron
+
+=== PARTE B: HASHSET (Conjuntos) ===
+Agregando pedidos del ArrayList al HashSet...
+Agregando pedidos del LinkedList al HashSet...
+
+Contenido del HashSet:
+1. Pedido #1 - Cliente: Javier - Comida: papas
+2. Pedido #3 - Cliente: Julian - Comida: pizza
+3. Pedido #3 - Cliente: juana - Comida: ensalada
+4. Pedido #4 - Cliente: pepe - Comida: pan
+5. Pedido #5 - Cliente: Luisa - Comida: Tomate
+6. Pedido #6 - Cliente: River - Comida: Arroz chino
+7. Pedido #5 - Cliente: River chicharron - Comida: chiccarron
+8. Pedido #7 - Cliente: Maka - Comida: Colombiana
+9. Pedido #6 - Cliente: Javier - Comida: Papa
+10. Pedido #1 - Cliente: Lilo - Comida: Hamburguesa
+11. Pedido #4 - Cliente: Tomas - Comida: Colacola
+12. Pedido #7 - Cliente: Juan - Comida: Queso
+13. Pedido #2 - Cliente: Juan - Comida: huevo frito
+14. Pedido #2 - Cliente: paola - Comida: arequipe
+
+Explicación sobre duplicados:
+- HashSet NO permite elementos duplicados
+- Los duplicados se eliminan automáticamente
+- Solo quedan elementos únicos en el conjunto
+
+=== PARTE C: HASHMAP (Mapas) ===
+Creando pedidos para 3 clientes...
+
+Pedidos de Juan Pérez:
+1. Pedido #1 - Cliente: Juan Pérez - Comida: Pizza Margherita
+2. Pedido #2 - Cliente: Juan Pérez - Comida: Hamburguesa
+3. Pedido #3 - Cliente: Juan Pérez - Comida: Ensalada César
+
+Total gastado por cada cliente:
+Juan Pérez: $50,00 (3 pedidos)
+Carlos López: $37,00 (2 pedidos)
+María García: $86,00 (4 pedidos)
+
+=== PARTE D: GENÉRICOS ===
+Lista completa de pedidos:
+1. Pedido #7 - Cliente: Juan - Comida: Queso
+2. Pedido #6 - Cliente: Javier - Comida: Papa
+3. Pedido #1 - Cliente: Javier - Comida: papas
+4. Pedido #2 - Cliente: Juan - Comida: huevo frito
+5. Pedido #3 - Cliente: Julian - Comida: pizza
+6. Pedido #4 - Cliente: pepe - Comida: pan
+7. Pedido #5 - Cliente: Luisa - Comida: Tomate
+8. Pedido #7 - Cliente: Maka - Comida: Colombiana
+9. Pedido #6 - Cliente: River - Comida: Arroz chino
+10. Pedido #1 - Cliente: Lilo - Comida: Hamburguesa
+11. Pedido #2 - Cliente: paola - Comida: arequipe
+12. Pedido #3 - Cliente: juana - Comida: ensalada
+13. Pedido #4 - Cliente: Tomas - Comida: Colacola
+14. Pedido #5 - Cliente: River chicharron - Comida: chiccarron
+
+Pedidos de Pizza:
+1. Pedido #3 - Cliente: Julian - Comida: pizza
+
+Pedidos con total > $50 (simulado):
+
+=== ANÁLISIS DE RENDIMIENTO ===
+Para 1000 pedidos urgentes:
+- ArrayList: O(n) - Necesita desplazar todos los elementos existentes
+- LinkedList: O(1) - Solo cambia las referencias de los nodos
+CONCLUSIÓN: LinkedList es más eficiente para inserciones al inicio
