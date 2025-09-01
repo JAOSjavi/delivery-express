@@ -1,5 +1,7 @@
 package taller1;
 
+import java.util.Objects;
+
 public class Pedido {
     private int numeroPedido;
     private String nombreCliente;
@@ -20,5 +22,20 @@ public class Pedido {
     public String toString() {
         return String.format("Pedido #%d - Cliente: %s - Comida: %s", 
                            numeroPedido, nombreCliente, comida);
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Pedido pedido = (Pedido) obj;
+        return numeroPedido == pedido.numeroPedido &&
+               nombreCliente.equals(pedido.nombreCliente) &&
+               comida.equals(pedido.comida);
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(numeroPedido, nombreCliente, comida);
     }
 }
